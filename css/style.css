@@ -1,0 +1,7 @@
+.bg { 
+    background-image: url(../img/background.jpg);
+    height: 90vh;
+    width: auto;
+    background-position: top right;
+    background-size: cover;
+}
