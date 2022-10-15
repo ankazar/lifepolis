@@ -16,29 +16,35 @@
       <div class="row">
         <div class="col-md-6 col-sm-12 col-12">
           <h2>Если требуется страхование ипотеки</h2>
-           <script 
-            type="text/javascript"    
-            src="https://widgets.inssmart.ru/widgets/b2c-frame.loader.js"
-            data-id="inssmart-b2c"
-            data-origin="https://widgets.inssmart.ru"
-            data-product="/mortgage"
-            data-token="fc35fca3-9e46-5037-8d43-0a2ef292d111"
-            data-secret="4cf9cc4a-eada-579e-a86d-382413706c3a">
-          </script> 
+          <a class="btn btn-primary" href="#ipoteka" onclick = "document.getElementById('ipoteka').style.display='block'; document.getElementById('osago').style.display='none';" role="button">Страхование ипотеки</a>
         </div>
         <div class="col-md-6 col-sm-12 col-12">
           <h2>Если требуется страхование авто</h2>
-           <script 
-            type="text/javascript"    
-            src="https://widgets.inssmart.ru/widgets/b2c-frame.loader.js"
-            data-id="inssmart-b2c"
-            data-origin="https://widgets.inssmart.ru"
-            data-product="/eosago"
-            data-token="01f72290-96d5-599e-9721-20bab67453e3"
-            data-secret="98c04fea-17e2-52c7-b421-0a9ff0d34b11">
-          </script> 
+          <a class="btn btn-primary" href="#osago" onclick = "document.getElementById('osago').style.display='block'; document.getElementById('ipoteka').style.display='none';"role="button">Калькулятор ОСАГО</a>
         </div>
       </div>
+    </div>
+    <div id = "ipoteka">
+      <script 
+      type="text/javascript"    
+      src="https://widgets.inssmart.ru/widgets/b2c-frame.loader.js"
+      data-id="inssmart-b2c"
+      data-origin="https://widgets.inssmart.ru"
+      data-product="/mortgage"
+      data-token="fc35fca3-9e46-5037-8d43-0a2ef292d111"
+      data-secret="4cf9cc4a-eada-579e-a86d-382413706c3a">
+    </script> 
+    </div>
+    <div id = "osago" style="display: none">
+      <script
+        type="text/javascript"    
+        src="https://widgets.inssmart.ru/widgets/b2c-frame.loader.js"
+        data-id="inssmart-b2c"
+        data-origin="https://widgets.inssmart.ru"
+        data-product="/eosago"
+        data-token="01f72290-96d5-599e-9721-20bab67453e3"
+        data-secret="98c04fea-17e2-52c7-b421-0a9ff0d34b11">
+    </script> 
     </div>
  </body>
 </html>
